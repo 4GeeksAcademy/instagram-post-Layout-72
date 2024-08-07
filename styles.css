@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    display: center;
+}
+h2{
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post{
+    width: 400px;
+    border: solid black 10px;
+}
+.post-header{
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+}
+.icons{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.icon{
+    text-align: right;
+    padding-right: 5px;
+    height: 0px;
+}
